@@ -27,11 +27,10 @@ class LaravelServiceProvider extends ServiceProvider
     public function boot()
     {
         // Check config_path exists.
-        if (function_exists('config_path'))
-        {
+        if (function_exists('config_path')) {
             // Publish the configuration file.
             $this->publishes([
-                __DIR__ . '/../../config/parsedown.php' => config_path('parsedown.php')
+                __DIR__.'/../../config/parsedown.php' => config_path('parsedown.php'),
             ]);
         }
     }
@@ -44,11 +43,10 @@ class LaravelServiceProvider extends ServiceProvider
     public function register()
     {
         // Merge the configurations.
-        $this->mergeConfigFrom(__DIR__ . '/../../config/parsedown.php', 'parsedown');
+        $this->mergeConfigFrom(__DIR__.'/../../config/parsedown.php', 'parsedown');
 
         // Register the parsedown instance.
-        $this->app->singleton('parsedown', function()
-        {
+        $this->app->singleton('parsedown', function () {
             // Return the instance.
             return Parsedown::instance()
                 ->setUrlsLinked(config('parsedown.links'))
