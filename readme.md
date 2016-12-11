@@ -86,3 +86,7 @@ If you find this wrapper to be useful, please consider [donating](https://paypal
 ## License
 
 This library is licensed under [MIT](http://choosealicense.org/licenses/mit), see [license.md](license.md) for details.
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/nblackburn/laravel-parsedown/badge.svg?style=beer-square)](https://beerpay.io/nblackburn/laravel-parsedown)  [![Beerpay](https://beerpay.io/nblackburn/laravel-parsedown/make-wish.svg?style=flat-square)](https://beerpay.io/nblackburn/laravel-parsedown?focus=wish)
