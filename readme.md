@@ -79,10 +79,6 @@ Parsedown::line('To lean more about **Parsedown**, visit [here](http://daringfir
 Parsedown::line('To lean more about **Parsedown**, visit [here](http://daringfireball.com/markdown).');
 ```
 
-## Donations
-
-If you find this wrapper to be useful, please consider [donating](https://paypal.me/nblackburn).
-
 ## License
 
 This library is licensed under [MIT](http://choosealicense.org/licenses/mit), see [license.md](license.md) for details.
