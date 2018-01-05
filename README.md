@@ -82,3 +82,7 @@ Parsedown::line('To lean more about **Parsedown**, visit [here](http://daringfir
 ## License
 
 This library is licensed under [MIT](http://choosealicense.org/licenses/mit), see [license.md](license.md) for details.
+
+## Donations
+
+[![](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://buymeacoffee.com/nblackburn)
